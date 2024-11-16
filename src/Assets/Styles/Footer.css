@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Iranian Sans';
+  src: url('../Fonts/Iranian\ Sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Iranian Sans', sans-serif;
+}
+.shop-footer {
+  background-color: #ffffff;
+  padding: 30px;
+  color: #333;
+  font-size: 10px;
+  direction: rtl;
+  border-top: solid 1px rgb(221, 203, 203);
+  border-bottom: solid 1px rgb(221, 203, 203) ;
+}
+.footer-up{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  padding-right: 120px;
+  font-size: 12px ;
+}
+
+.digikala-logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+  
+
+
+.footer-guarantees {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+
+}
+.footer-guarantees .guarantee-item img {
+  width: 55px; /* Adjust to your desired width */
+  height: 55px; /* Adjust to your desired height */
+}
+
+.guarantee-item {
+  text-align: center;
+  flex: 1;
+}
+
+.guarantee-item img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  direction: rtl;
+  font-size: 14px;
+  
+  
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social-newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-social h3 {
+  margin-bottom: 10px;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin: 0 8px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-newsletter {
+  text-align: center;
+}
+
+.newsletter-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter-input input {
+  padding: 14px;
+  background-color: #f0e6e6;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.newsletter-input button {
+  padding: 14px;
+  border: none;
+  background-color:#f0e6e6;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+
+
+
+.footer-app-download {
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+  margin-left: 120px;
+  justify-content: space-between;
+  background-color: #3C4B6D;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.footer-app-logo img {
+  width: 40px; /* Adjust logo size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer-app-download p {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+   
+}
+
+.app-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.app-icons a img {
+  width: 120px; /* Adjust icon size as needed */
+  height: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.app-icons a img:hover {
+  transform: scale(1.1);
+}
+.footer-certificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.certificate-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.certificate-icons img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.certificate-description {
+  text-align: right;
+  max-width: 700px;
+  color: #333;
+}
+
+.certificate-description h4 {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.certificate-description p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Hide additional text without removing space */
+.additional-text {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show additional text when .show class is added */
+.show-more .additional-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-more-button {
+  color: #0a73ff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+  text-align: right;
+}
